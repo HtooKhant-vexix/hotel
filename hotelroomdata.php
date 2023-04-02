@@ -18,7 +18,7 @@
 
 <div class="row">
 	<?php 
-	$conn = mysqli_connect("localhost","root","","hotel_booking_hys_db");
+	$conn = mysqli_connect("localhost","root","","hotel_booking_sth_db");
 	$roomdata = mysqli_query($conn,"SELECT * FROM hotel_room_tb");
 			while($roomarr = mysqli_fetch_array($roomdata))
 			{

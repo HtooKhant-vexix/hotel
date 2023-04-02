@@ -1,4 +1,83 @@
 /* Getting the new tags to behave */
+
+
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";																																						
+
+/* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; */
+
+.h {
+
+	height: 200px;
+	
+}
+
+/* .card  {
+	height: 300px;
+} */
+#form1 {
+	width:240px;
+	float:right;
+	padding:30px;
+	background:#12110f
+}
+#form1 h2 {
+	padding:0 0 22px 0;
+	margin-top:-4px;
+	color:#fff
+}
+#form1 .right {
+	width:140px
+}
+#form1 .row {
+	/* height:30px;
+	line-height:22px */
+}
+#form1 .row_textarea {
+	height:102px;
+	line-height:22px
+}
+#form1 .input {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#72716f;
+	background:none;
+	/* height:15px;
+	padding:3px 5px;
+	width:128px;
+	margin:0 */
+}
+#form1 textarea {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#72716f;
+	background:none;
+	height:54px;
+	padding:3px 5px;
+	width:222px;
+	margin:0;
+	overflow:auto
+}
+
+
+
+
+#form1 .select1 .jqTransformSelectWrapper div, #form1 .select1 .jqTransformSelectWrapper ul {
+	width:138px !important
+}
+#form1 .select2 .jqTransformSelectWrapper div, #form1 .select2 .jqTransformSelectWrapper ul {
+	width:42px !important
+}
+#form1 .select2 {
+	float:right;
+	width:44px;
+	margin-left:4px
+}
+#form1 .button1 {
+	float:right;
+	margin-left:4px;
+	padding:0 19px
+}
+
+
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
 	display:block
 }
@@ -173,8 +252,8 @@ header {
 }
 /* =========== kwiks slider ========= */
 .kwicks-wrapper {
-	width:640px;
-	overflow:hidden
+	/* width:640px;
+	overflow:hidden */
 }
 .kwicks {/* recommended styles for kwicks ul container */
 	list-style:none;
@@ -357,56 +436,16 @@ footer a:hover {
 	color:#72716f;
 	font:12px Arial, Helvetica, sans-serif
 }
-#form1 {
-	width:240px;
-	float:right;
-	padding:30px;
-	background:#12110f
-}
-#form1 h2 {
-	padding:0 0 22px 0;
-	margin-top:-4px;
-	color:#fff
-}
-#form1 .right {
-	width:140px
-}
-#form1 .row {
-	height:30px;
-	line-height:22px
-}
-#form1 .row_textarea {
-	height:102px;
-	line-height:22px
-}
-#form1 .input {
-	font:12px Arial, Helvetica, sans-serif;
-	color:#72716f;
-	background:none;
-	height:15px;
-	padding:3px 5px;
-	width:128px;
-	margin:0
-}
-#form1 textarea {
-	font:12px Arial, Helvetica, sans-serif;
-	color:#72716f;
-	background:none;
-	height:54px;
-	padding:3px 5px;
-	width:222px;
-	margin:0;
-	overflow:auto
-}
+
 /* -------------
- * Hidden - used to hide the original form elements
- * ------------- */
+* Hidden - used to hide the original form elements
+* ------------- */
 .jqTransformHidden {
 	display:none
 }
 /* -------------
- * Inputs
- * ------------- */
+* Inputs
+* ------------- */
 .jqTransformInputWrapper {
 	border:1px solid #2a2824;
 	position:relative;
@@ -428,8 +467,8 @@ footer a:hover {
 	margin-top:4px
 }
 /* -------------
- * Selects
- * ------------- */
+* Selects
+* ------------- */
 .jqTransformSelectWrapper {
 	position:relative;
 	float:right
@@ -490,19 +529,4 @@ a.jqTransformSelectOpen {
 	color:#fff;
 	background:#2a2824
 }
-#form1 .select1 .jqTransformSelectWrapper div, #form1 .select1 .jqTransformSelectWrapper ul {
-	width:138px !important
-}
-#form1 .select2 .jqTransformSelectWrapper div, #form1 .select2 .jqTransformSelectWrapper ul {
-	width:42px !important
-}
-#form1 .select2 {
-	float:right;
-	width:44px;
-	margin-left:4px
-}
-#form1 .button1 {
-	float:right;
-	margin-left:4px;
-	padding:0 19px
-}
+
